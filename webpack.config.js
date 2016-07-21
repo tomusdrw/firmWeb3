@@ -64,7 +64,8 @@ module.exports = {
     hot: !isProd,
     proxy: {
       '/rpc*': {
-        target: 'http://localhost:8080'
+        target: 'http://localhost:8080',
+        changeOrigin: true
       }
     }
   }
