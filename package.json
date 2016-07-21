@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --hot --port 4000",
-    "lint": "semistandard ./lib",
+    "lint": "semistandard ./lib/**/*.js",
     "test": "mocha \"lib/**/*.spec.js\""
   },
   "keywords": [],
