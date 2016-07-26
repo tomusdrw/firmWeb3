@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "GPL3",
-  "dependencies": {
+  "peerDependencies": {
     "web3": "^0.17.0-alpha"
   },
   "devDependencies": {
