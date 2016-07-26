@@ -1,8 +1,8 @@
 {
   "name": "firm.web3",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --open --hot --port 4000",
     "lint": "semistandard ./lib/**/*.js",

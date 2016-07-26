@@ -19,7 +19,7 @@ module.exports = {
     library: 'firm.web3',
     libraryTarget: 'umd',
     umdNamedDefine: true,
-    path: path.join(__dirname, './build'),
+    path: isProd ? path.join(__dirname, './dist') : path.join(__dirname, './build'),
     filename: '[name].js'
   },
   module: {
