@@ -86,6 +86,8 @@ web3.eth.sendTransaction({...}, function (err, txHash) {
 - `contractF.at(address)` - returns contract with current ABI bound to given `address`,
 - `contractF.new([...args,] callback)` - deploys contract with current ABI and calls back with `FirmContract`.
 
+#### Contract instance
+
 - `contract.withCertainty(level)` - returns a new contract with different certainty `level`,
 - `contract.allEvents([filterOptions] [, callback])` - returns a filter for all events hapening in contract
 - `contract.[eventName]([filterValues] [, filterOptions] [, callback])` - returns a filter for specific event in contract
@@ -95,6 +97,6 @@ Parameters values are the same as specified here: [JavaScript API](https://githu
 
 # TODO
 
-- [] Better retries handling (each block instead of timeout)
-- [] Information about progress
+- [ ] Better retries handling (each block instead of timeout)
+- [ ] Information about progress
 
