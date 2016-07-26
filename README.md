@@ -1,7 +1,10 @@
+[![NPM version][npm-image]][npm-url] 
 [![Build Status][travis-image]][travis-url]
 [![Join the chat at https://gitter.im/ethcore/parity][gitter-image]][gitter-url]
 [![GPLv3][license-image]][license-url]
 
+[npm-image]: https://badge.fury.io/js/firm.web3.png
+[npm-url]: https://npmjs.org/package/firm.web3
 [travis-image]: https://travis-ci.org/tomusdrw/firmWeb3.svg?branch=master
 [travis-url]: https://travis-ci.org/tomusdrw/firmWeb3
 [gitter-image]: https://badges.gitter.im/Join%20Chat.svg
